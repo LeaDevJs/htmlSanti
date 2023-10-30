@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap');
+body{
+    background: rgb(241,241,252);
+background: linear-gradient(90deg, rgba(241,241,252,1) 0%, rgba(146,218,232,1) 91%);
+font-family: 'Bebas Neue', sans-serif;
+letter-spacing: 2px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arquero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.arquero .player {
+    height: 30%;
+    width: 28%;
+}
+.defensores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.defensores .player{
+    height: 270px;
+    width: 250px;
+    margin: 20px;
+}
+.mediocampistas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mediocampistas .player{
+    height: 270px;
+    width: 250px;
+    margin: 20px;
+}
+.delanteros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.delanteros .cardPlayer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.delanteros .player{
+    height: 270px;
+    width: 250px;
+    margin: 20px;
+}
